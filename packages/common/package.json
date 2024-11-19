@@ -1,0 +1,16 @@
+{
+    "name": "@swipesoccer/common",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc-watch --noClear"
+    },
+    "devDependencies": {
+        "prettier": "^3.3.3",
+        "typescript": "^5.6.3"
+    },
+    "dependencies": {
+        "tsc-watch": "6.2.1"
+    }
+}
